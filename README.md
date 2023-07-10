@@ -11,29 +11,23 @@ Use the following command to clone the repository:
 git clone https://github.com/mgcnb666/taiko-One-click-installation-node.git
 ```
 
-### Step 2: Navigate to the project directory
 
-Use the following command to navigate to the project directory:
 
-```bash
-cd taiko-One-click-installation-node
-```
-
-### Step 3: Copy the installation script to the home directory
+### Step 2: Copy the installation script to the home directory
 
 Use the following command to copy the `install.sh` file to your home directory:
 
 ```bash
 cp /root/taiko-One-click-installation-node/install.sh ~/
 ```
-### Step 4: Run the installation script
+### Step 3: Run the installation script
 
 Use the following command to run the installation script:
 
 ```bash
 sudo bash install.sh
 ```
-### Step 5: Modify the configuration
+### Step 4: Modify the configuration
 
 Modify the `.env` file with your own configuration. Refer to the Taiko node documentation for more information.
 
