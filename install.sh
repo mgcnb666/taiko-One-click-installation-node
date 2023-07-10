@@ -1,10 +1,12 @@
 #!/bin/bash
 
+sudo apt install docker.io
 
-sudo snap install docker
+
+export PATH=$PATH:/usr/bin/docker
 
 
-sudo snap install docker-compose
+
 
 
 sudo snap install go --classic
@@ -18,3 +20,15 @@ cd simple-taiko-node
 cp .env.sample .env
 
 
+
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+
+docker-compose --version
