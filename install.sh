@@ -1,13 +1,6 @@
 #!/bin/bash
 
 
-git clone https://github.com/taikoxyz/simple-taiko-node.git
-cd simple-taiko-node
-
-
-cp .env.sample .env
-
-
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
@@ -25,3 +18,11 @@ source ~/.bashrc
 git clone https://github.com/ethereum/go-ethereum.git
 cd go-ethereum
 make geth
+
+
+git clone https://github.com/taikoxyz/simple-taiko-node.git
+
+cd simple-taiko-node
+
+
+cp .env.sample .env
