@@ -40,6 +40,7 @@ Modify the `.env` file with your own configuration. Refer to the Taiko node docu
 ```bash
 cd simple-taiko-node
 nano .env
+docker-compose up -d
 ```
 
 
